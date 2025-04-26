@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Kingthings Italique';
+    src: url('@styles/font/Kingthings Italique.ttf') format('truetype');
+}
+
+.gt-header-text {
+    font-family: 'Kingthings Italique', sans-serif;
+    font-size: 8rem;
+    /* Adjust the font size as needed */
+    color: #a9885c !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+    margin-bottom: auto !important;
+    font-weight: 200 !important;
+    text-decoration: underline !important;
+}
+
+.gt-header-sub {
+    padding-top: 200px !important;
+    margin-top: 30px !important;
+    transform: translateY(-50%);
+    font-size: 7rem !important;
+    /* Adjust the font size as needed */
+    color: #a9885c !important;
+    margin-bottom: none !important;
+    font-family: 'Kingthings Italique', sans-serif;
+}
+
+.gt-header-logo {
+    height: 40px;
+    transition: transform 0.3s ease;
+}

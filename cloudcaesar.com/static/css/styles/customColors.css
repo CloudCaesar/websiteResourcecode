@@ -1,0 +1,37 @@
+.custom-button {
+    background-color: #a9885c !important;
+    /* Inactive background color */
+    color: #702963 !important;
+    /* Inactive text color */
+    border: none !important;
+    /* Remove border color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition */
+    border-color: #a9885c !important;
+}
+
+.custom-button:hover,
+.custom-button:active,
+.custom-button:focus {
+    background-color: #702963 !important;
+    /* Active background color */
+    color: #702963 !important;
+    /* Active text color */
+    border: none !important;
+    /* Remove border color */
+    border-color: #a9885c !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+    border-color: #a9885c !important;
+}
+
+.custom-button.active {
+    background-color: #a9885c !important;
+    /* Active background color */
+    color: #702963 !important;
+    /* Active text color */
+    border: none !important;
+    /* Remove border color */
+    border-color: #a9885c !important;
+}

@@ -1,0 +1,121 @@
+.blog-menu {
+    margin-top: 0 !important;
+    /* Ensure no margin at the top */
+    justify-content: space-between;
+    z-index: 0;
+    background-size: 50% auto !important;
+    background-image: url('/public/assets/HDHWWDFaJzfX5z3WuEgg.svg') !important;
+    background-color: #702963 !important;
+    /* Ensure the blog menu has a background color */
+    padding: 10px;
+    /* Add padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow for better visibility */
+    height: 100vh;
+    /* Take up the full height of the viewport */
+    position: relative !important;
+    width: 13rem !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat-y !important;
+    /* Repeat the image horizontally */
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Arrange children in a column */
+    min-height: 100vh;
+    /* Full viewport height */
+    /**/
+}
+
+.ui.vertical.menu .item {
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    /* Ensure space between text and icon */
+    align-items: center;
+    /* Center items vertically */
+    position: relative;
+    /* Ensure relative positioning for absolute child elements */
+    text-align: left;
+    /* Ensure text is always aligned to the left */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+    border-radius: 0;
+    /* Ensure square corners */
+    width: 100%;
+    /* Ensure the item takes the full width of the menu */
+}
+
+.ui.vertical.menu .dropdown.icon {
+    align-self: center;
+    /* Center the icon vertically */
+    position: absolute;
+    /* Position the icon absolutely */
+    right: 20px;
+    /* Adjust this value to ensure the icon is aligned to the right */
+    top: 50%;
+    /* Position the icon vertically centered */
+    transform: translateY(-50%);
+    /* Adjust for perfect vertical centering */
+    transition: transform 0.3s ease;
+    /* Smooth transition for rotation */
+}
+
+.ui.vertical.menu {
+    display: none;
+}
+
+.ui.vertical.menu .item.active>.menu {
+    display: block;
+    position: absolute;
+    /* Ensure the submenu is positioned absolutely */
+    left: 100%;
+    /* Position the submenu to the right of its parent */
+    top: 0;
+    z-index: 1;
+    background-color: #702963 !important;
+    background-attachment: fixed !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    /* Ensure square corners */
+    width: 100%;
+    /* Ensure the submenu takes the same width as the parent */
+}
+
+.ui.vertical.menu .item.active>.dropdown.icon {
+    transform: translateY(-50%) rotate(-90deg);
+    /* Rotate the icon 90 degrees */
+}
+
+.ui.vertical.menu .item {
+    background-color: #a9885c !important;
+}
+
+a.item.active {
+    background-color: #702963 !important;
+}
+
+/* Default background color for buttons */
+
+.blog-menu .ui.button {
+    background-color: #702963;
+    color: #fff;
+    /* Optional: Set text color for better contrast */
+}
+
+.blog-menu,
+.header-menu {
+    border: 7px solid #a9885c !important;
+    border-width: 7pt !important;
+    margin-top: 0 !important;
+    /* Ensure no margin at the top */
+}
+
+.ui.column.grid>[class*="four wide"].column,
+.ui.grid>.column.row>[class*="four wide"].column,
+.ui.grid>.row>[class*="four wide"].column,
+.ui.grid>[class*="four wide"].column {
+    width: 20% !important;
+}

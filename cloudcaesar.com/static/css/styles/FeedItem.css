@@ -1,0 +1,61 @@
+.feed-item-image {
+    width: 100%;
+    /* Ensure the image takes up the full width of the column */
+    max-width: 100px;
+    /* Set a maximum width for the image */
+    height: auto;
+    /* Maintain the aspect ratio */
+    object-fit: cover;
+    /* Ensure the image maintains its aspect ratio */
+}
+
+.feed-item {
+    background-color: #702963 !important;
+    border-left: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-top: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-right: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-bottom: 10px solid #a9885c !important;
+    padding: 25px !important;
+    /* Optional: Add padding for better spacing */
+    box-shadow: none !important;
+}
+
+.feed-item-message-cell {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.feed-item-background-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.feed-item-background-image {
+    width: 100%;
+    /* Ensure the image takes up the full width of the container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    max-width: 500px;
+    /* Set a maximum width for the image */
+    max-height: 500px;
+    /* Set a maximum height for the image */
+}
+
+.message-custom {
+    color: #a9885c !important;
+    /* Set the text color */
+    background: none !important;
+    /* Remove the background */
+    box-shadow: none !important;
+    /* Remove the box shadow */
+    font-size: 1.1em !important;
+    /* Make the text larger */
+    font-weight: bold !important;
+    /* Make the text bold */
+}

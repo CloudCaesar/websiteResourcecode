@@ -1,0 +1,28 @@
+.blog-footer {
+    background-color: #a9885c !important;
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Kingthings Italique';
+    src: url('@styles/font/Kingthings Italique.ttf') format('truetype');
+}
+
+.blog-text {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    right: 5px;
+    font-family: 'Kingthings Italique', sans-serif !important;
+    font-size: 3rem;
+    /* Adjust the font size as needed */
+    color: #702963;
+}
+
+/* <div className="footer-content" style={{ display: 'flex', alignItems: 'center' }}>
+
+
+<Image src={`${process.env.PUBLIC_URL}/assets/LogoByz.svg`} alt="Logo" className="header-logo" />
+<p className="blog-text" style={{ marginLeft: '10px' }}>Cloud Caesar</p>
+</div>
+   */

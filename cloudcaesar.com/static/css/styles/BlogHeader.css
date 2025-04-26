@@ -1,0 +1,110 @@
+.header-menu {
+    display: flex;
+    background-image: url('/public/assets/HDHWWDFaJzfX5z3WuEgg.svg') !important;
+    background-size: 50% !important;
+    /* Ensure the image covers the entire background */
+    background-repeat: repeat-x !important;
+    /* Prevent the image from repeating */
+    background-position: left top !important;
+    /* Center the background image */
+    background-attachment: fixed !important;
+    padding: 10px;
+    background-color: #702963 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1 !important;
+    /* Ensure it is not covered by other elements */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    height: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.header-logo:hover {
+    transform: rotate(-360deg);
+}
+
+.menu .item {
+    margin: 0 10px;
+}
+
+.menu .item .input {
+    width: auto;
+}
+
+@font-face {
+    font-family: 'Kingthings Italique';
+    src: url('@styles/font/Kingthings Italique.ttf') format('truetype');
+}
+
+.header-text {
+    margin-top: 30px !important;
+    margin-bottom: auto;
+    font-family: 'Kingthings Italique', sans-serif;
+    position: initial !important;
+    right: 5px;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto !important;
+    font-size: 7rem;
+    /* Adjust the font size as needed */
+    color: #a9885c;
+}
+
+/* Media query for screens smaller than 768px */
+
+@media (max-width: 768px) {
+    .header-menu {
+        flex-direction: row;
+        align-items: flex-start;
+        background-image: none !important;
+        background-color: #702963 !important;
+    }
+    .header-logo {
+        height: 30px;
+        transition: transform 0.3s ease;
+    }
+    .menu .item {
+        width: 15%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .menu .item .input {
+        width: 100%;
+    }
+    .menu-items-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .ui.left.pointing.dropdown>.menu {
+        color: #a9885c !important;
+        /* Set dropdown text color */
+        background-color: #a9885c !important;
+        /* Ensure dropdown items have the same background */
+    }
+    .menu.transition.visible {
+        color: #a9885c !important;
+    }
+}
+
+/* Media query adjustments for dropdown direction if needed */
+
+.dropdown-menu {
+    /* Ensure the dropdown menu aligns to the right */
+    text-align: right;
+    color: #702963 !important;
+}
+
+/* Optional: Additional styling to support dropdown alignment */
+
+.ui.dropdown.right.menu .menu {
+    left: auto;
+    right: 0;
+}

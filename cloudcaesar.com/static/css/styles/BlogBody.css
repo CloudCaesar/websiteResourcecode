@@ -1,0 +1,189 @@
+.custom-four-wide-column {
+    flex-direction: row !important;
+}
+
+.golden {
+    background-color: #a9885c !important;
+}
+
+.ui.grid>.row {
+    padding: 0 !important;
+    /* Remove padding from rows */
+}
+
+.ui.grid>.column {
+    padding: 0 !important;
+    /* Remove padding from columns */
+}
+
+.custom-icon {
+    color: #702963 !important;
+    /* Set the icon color */
+}
+
+.background-byz {
+    background-color: #702963 !important;
+    color: #702963 !important;
+}
+
+.custom-button-body {
+    color: #702963 !important;
+    /* Set the icon color */
+    background-color: #a9885c !important;
+}
+
+.custom-button-body-inverse {
+    color: #a9885c !important;
+    /* Set the icon color */
+    background-color: #702963 !important;
+}
+
+.custom-icon-body {
+    color: #a9885c !important;
+    /* Set the icon color */
+    background-color: #702963 !important;
+}
+
+.ui.raised.segment,
+.ui.raised.segments {
+    color: #a9885c !important;
+    /* Set the icon color */
+    background-color: #702963 !important;
+}
+
+.blog-style {
+    color: #a9885c !important;
+    /* Set the icon color */
+    background-color: #702963 !important;
+}
+
+.blog-menu-column {
+    transition: width 0.9s ease;
+    /* Smooth transition for width change */
+}
+
+.content-column {
+    transition: width 0.9s ease;
+    /* Smooth transition for width change */
+}
+
+.ui.segment {
+    background: none !important;
+    border-left: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-top: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-right: 10px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-bottom: 10px solid #a9885c !important;
+    padding: 25px !important;
+    /* Optional: Add padding for better spacing */
+}
+
+.ui.segment.czr {
+    background: none !important;
+    border-left: 0px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-top: 0px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-right: 0px solid #a9885c !important;
+    /* Add border with the specified color */
+    border-bottom: 0px solid #a9885c !important;
+    padding: 25px !important;
+    /* Optional: Add padding for better spacing */
+}
+
+.page-border {
+    background: none !important;
+    padding-left: 20px !important;
+}
+
+.background-image {
+    background-color: #702963 !important;
+}
+
+.body-gold {
+    font-size: auto;
+    /* Adjust the font size as needed */
+    color: #a9885c !important;
+    text-align: left;
+}
+
+.body-gold-header {
+    font-size: auto;
+    /* Adjust the font size as needed */
+    color: #a9885c !important;
+    text-align: center;
+}
+
+.body-byz {
+    font-size: auto;
+    /* Adjust the font size as needed */
+    color: #702963;
+    text-align: left;
+}
+
+.slick-dots li button:before {
+    color: #a9885c;
+    /* Set the color of the dots */
+}
+
+/* Change the color of the active dot */
+
+.slick-dots li.slick-active button:before {
+    color: #a9885c;
+    /* Set the color of the active dot */
+}
+
+.ui-fluid-button {
+    background-color: #a9885c !important;
+    color: #702963 !important;
+    text-align: center !important;
+}
+
+.BBByz {
+    background-image: url('/public/assets/HDHWWDFaJzfX5z3WuEgg.svg') !important;
+}
+
+.ui.modal .ui.list .list .item .content {
+    text-align: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    padding-left: 1em;
+}
+
+.ui.modal .ui.center.aligned.header,
+.ui.modal .ui.centered.header {
+    text-align: left !important;
+}
+
+.body-item-image:hover {
+    transform: scale(1.2) !important;
+    /* Scale the image to 2.5 times its original size */
+    z-index: 10;
+    /* Ensure the image overlays everything else */
+    position: relative;
+    /* Position the image relative to its original position */
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.table:not(.unstackable) tr>td,
+    .ui.table:not(.unstackable) tr>th {
+        background: 0 0;
+        border: none !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+}
+
+.element.style {
+    padding-right: 0px !important;
+}
+
+.full-width-button {
+    width: 100%;
+    margin-top: 10px;
+    /* Optional: Add some margin for spacing */
+}

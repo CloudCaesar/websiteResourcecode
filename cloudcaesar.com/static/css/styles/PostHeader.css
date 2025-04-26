@@ -1,0 +1,80 @@
+.post-item-image {
+    width: 100%;
+    /* Ensure the image takes up the full width of the column */
+    max-width: 100px;
+    /* Set a maximum width for the image */
+    height: auto;
+    /* Maintain the aspect ratio */
+    object-fit: cover;
+    /* Ensure the image maintains its aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform property */
+}
+
+.post-item-image:hover {
+    transform: scale(1.5) !important;
+    /* Scale the image to 2.5 times its original size */
+    z-index: 10;
+    /* Ensure the image overlays everything else */
+    position: relative;
+    /* Position the image relative to its original position */
+}
+
+.post-item {
+    background-color: #702963 !important;
+    padding: 25px !important;
+    /* Optional: Add padding for better spacing */
+}
+
+.post-item .ui.button {
+    background-color: #702963;
+    color: #fff;
+    /* Optional: Set text color for better contrast */
+}
+
+.post-item img {
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform property */
+}
+
+.post-item img:hover {
+    transform: scale(2.5);
+    /* Scale the image to 2.5 times its original size */
+}
+
+.post-item-message-cell {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.post-item-background-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.post-item-background-image {
+    width: 100%;
+    /* Ensure the image takes up the full width of the container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    max-width: 500px;
+    /* Set a maximum width for the image */
+    max-height: 500px;
+    /* Set a maximum height for the image */
+}
+
+.message-custom {
+    color: #a9885c !important;
+    /* Set the text color */
+    background: none !important;
+    /* Remove the background */
+    box-shadow: none !important;
+    /* Remove the box shadow */
+    font-size: 1.1em !important;
+    /* Make the text larger */
+    font-weight: bold !important;
+    /* Make the text bold */
+}
